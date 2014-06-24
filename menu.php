@@ -21,7 +21,7 @@
 
                             <!-- class="active" -->
                             <li><a href="cadastro.php">Cadastros</a></li>
-                            <li><a href="contato">Contato</a></li>
+                            <li><a href="contato.php">Contato</a></li>
                             
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Opções<b class="caret"></b></a>
