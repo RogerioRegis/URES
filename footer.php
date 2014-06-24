@@ -1,8 +1,8 @@
-      <div class="footer">
-        <p>&copy; URES-RR 2014</p>
-      </div>
+<div class="footer">
+    <p>&copy; URES-RR 2014</p>
+</div>
 
-    </div> <!-- /container -->
-    
-  </body>
+</div> <!-- /container -->
+
+</body>
 </html>

@@ -1,31 +1,59 @@
-      <title>Ures Roraima</title>
-      
-      <div class="jumbotron">
-        <h1>URES - Roraima</h1>
-        <p class="lead">União Roraimanese dos Estudantes Secundaristas e de Nível Superior.</p>
-        <p><a class="btn btn-lg btn-success" href="login.php" role="button">Inscreva-se hoje</a></p>
-      </div>
+<?php include_once './header.php'; ?>
+<?php include_once './menu.php'; ?>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+<title>Ures Roraima</title>
 
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+<!--<div class="jumbotron">
+    <h1>URES - Roraima</h1>
+    <p class="lead">União Roraimanese dos Estudantes Secundaristas e de Nível Superior.</p>
+    <p><a class="btn btn-lg btn-success" href="login.php" role="button">Inscreva-se hoje</a></p>
+</div>-->
 
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
+<table class="table table-hover">
 
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+    <tr>
+        <th width=20 bgcolor="LightGray">Id</th>
+        <th width=200 bgcolor="LightGray">Nome</th>
+        <th width=50 bgcolor="LightGray">Idade</th>
+        <th width=50 bgcolor="LightGray">Dados Completos</th>
+    </tr>
 
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+    <tr>
+        <td >1</td>
+        <td >Silvia Amorim</td>
+        <td>35</td>
+        <td><a href="#">Outros dados</a></td>
+    </tr>
 
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-      </div>
+    <tr>
+        <td>2</td>
+        <td>Pamela Portela</td>
+        <td>25</td>
+        <td><a href="#">Outros dados</a></td>
+    </tr>
+    
+
+    <tr>
+        <td>3</td>
+        <td>Carlos Atunes</td>
+        <td>45</td>
+        <td><a href="#">Outros dados</a></td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>Rogério Regis</td>
+        <td>37</td>
+        <td><a href="#">Outros dados</a></td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+</table>
+
+<?php include_once './footer.php'; ?>
