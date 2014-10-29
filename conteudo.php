@@ -1,5 +1,7 @@
-<?php include_once './header.php'; ?>
-<?php include_once './menu.php'; ?>
+<?php
+include_once './header.php';
+include_once './menu.php';
+?>
 
 <title>Ures Roraima</title>
 
@@ -12,7 +14,7 @@
 <table class="table table-hover">
 
     <tr>
-        <th width=20 bgcolor="LightGray">Id</th>
+        <th width=20 bgcolor="LightGray">#</th>
         <th width=200 bgcolor="LightGray">Nome</th>
         <th width=50 bgcolor="LightGray">Idade</th>
         <th width=50 bgcolor="LightGray">Dados Completos</th>
@@ -31,7 +33,7 @@
         <td>25</td>
         <td><a href="#">Outros dados</a></td>
     </tr>
-    
+
 
     <tr>
         <td>3</td>
