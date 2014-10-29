@@ -19,19 +19,6 @@ return array(
         'invokables' => array(
             'Livraria\Controller\Index' => 'Livraria\Controller\IndexController'
         ),
-        
-        'doctrine' => array(
-            'driver' => array(
-                'livraria' => array(
-                    'paths' => array(__DIR__ . '/../src/Livraria/Entity')
-                ),
-                'orm_default' => array(
-                    'driver' => array(
-                        'Livraria\Entity' => 'livraria'
-                    ),
-                ),
-            ),
-        ),
     ),
     'view_manager' => array(
         'display_not_found_reason' => true,

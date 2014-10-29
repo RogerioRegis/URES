@@ -1,9 +1,7 @@
 <?php
 return array(
     'modules' => array(
-        'DoctrineModule',
-        'DoctrineORMModule',
-        'Livraria'
+        'Livraria',
     ),
     'module_listener_options' => array(
         'module_paths' => array(
